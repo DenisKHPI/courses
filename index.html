@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/jquery.datetimepicker.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+  </head>
+  <body>
+    <div class="loader-wrap">
+      <div class="loader"><span></span><span></span><span></span><span></span></div>
+    </div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container container_df">
+          <div class="logotype"></div><a class="btn__menu" href="#" onclick="show('block')"> <span>Меню</span><span>+</span></a>
+          <form class="form__search" action="#">
+            <input class="form__input_search" type="search" placeholder="Поиск по ключевым словам">
+          </form><a class="btn__arrow" href="#">Личный кабинет</a>
+        </div>
+      </header>
+      <main class="main">
+        <section class="filter">
+          <div id="filter" onclick="show('none')"></div>
+        </section>
+        <section class="courses">
+          <div class="container container_df">
+            <div class="courses__main" data-aos="fade-left" data-aos-duration="2000">
+              <h3 class="title__second">ЭФФЕКТИВНЫЕ КУРСЫ ОТ NAMESITE.COM</h3>
+              <h1 class="title__main">Рыбатекст используется дизайнерами, проектировщиками</h1>
+              <p class="text__main text__main_courses">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести</p><a class="btn__arrow" href="#">Все курсы</a>
+            </div>
+            <div class="courses__img-container" data-aos="fade-right" data-aos-duration="2000">
+              <div class="courses__img-sub-container"><img class="courses__img" src="images/c_img_1.jpg" alt="people">
+                <div class="courses__blue-figure courses__blue-figure_1"></div>
+              </div>
+              <div class="courses__img-sub-container">
+                <div class="courses__blue-figure courses__blue-figure_2"></div><img class="courses__img" src="images/c_img_2.jpg" alt="girl">
+              </div>
+              <div class="courses__img-sub-container">
+                <div class="courses__blue-figure courses__blue-figure_3"></div><img class="courses__img" src="images/c_img_3.jpg" alt="blonde">
+                <div class="courses__blue-figure courses__blue-figure_4"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="training">
+          <div class="container">
+            <div class="training__btn">
+              <div class="btn__balls">
+                <h4 class="btn__profession">Название профессии</h4>
+                <h4 class="btn__number">01</h4>
+              </div>
+              <div class="btn__balls">
+                <h4 class="btn__profession">Название профессии</h4>
+                <h4 class="btn__number">01</h4>
+              </div>
+              <div class="btn__balls">
+                <h4 class="btn__profession">Название профессии</h4>
+                <h4 class="btn__number">01</h4>
+              </div>
+              <div class="btn__balls">
+                <h4 class="btn__profession">Название профессии</h4>
+                <h4 class="btn__number">01</h4>
+              </div>
+            </div>
+            <div class="training__main">
+              <div class="training__img" data-aos="zoom-in" data-aos-duration="2000">
+                <div class="training__img_container"><img class="training__images" src="images/t__img_1.jpg" alt=""><img class="training__images" src="images/t__img_3.jpg" alt=""></div>
+                <div class="training__img_container"><img class="training__images" src="images/t__img_3.jpg" alt=""><img class="training__images" src="images/t__img_2.jpg" alt=""></div>
+              </div>
+              <div class="training__reg">
+                <div class="training__reg-second">
+                  <h2 class="title__main_s title__main_training">Обучись новой профессии сидя дома , абсолютно бесплатно</h2>
+                  <p class="text__main">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести</p>
+                </div><a class="btn__arrow btn__arrow_xl" href="#">Зарегистрироваться бесплатно</a>
+              </div>
+              <div class="training__img" data-aos="zoom-in" data-aos-duration="2000">
+                <div class="training__img_container"><img class="training__images" src="images/t__img_2.jpg" alt=""><img class="training__images" src="images/t__img_3.jpg" alt=""></div>
+                <div class="training__img_container"><img class="training__images" src="images/t__img_3.jpg" alt=""><img class="training__images" src="images/t__img_1.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="used">
+          <div class="container container_df-c">
+            <div class="used__text">
+              <h2 class="title__main">Рыбатекст используется дизайнерами, проектировщиками</h2>
+              <p class="text__main text__main_used">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести</p>
+            </div>
+            <div class="used__main">
+              <div class="used__main-text">
+                <div class="used__info">
+                  <div class="used__number">
+                    <h3 class="title_info">20</h3><span>Cпикеров</span>
+                  </div>
+                  <h4 class="used__item-number">01</h4>
+                </div>
+                <div class="used__info">
+                  <div class="used__number">
+                    <h3 class="title_info">180+</h3><span>Уроков</span>
+                  </div>
+                  <h4 class="used__item-number">02</h4>
+                </div>
+                <div class="used__info">
+                  <div class="used__number">
+                    <h3 class="title_info">9</h3><span>Лекций у каждого спикера</span>
+                  </div>
+                  <h4 class="used__item-number">03</h4>
+                </div>
+              </div>
+              <div class="swiper-containera">
+                <div class="swiper-container-pagination"><span class="swiper-pagination"></span>
+                  <button class="swiper-button-prev"></button>
+                  <button class="swiper-button-next"></button>
+                </div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swiper-slide_used" data-index="0"><img src="images/slider.jpg" alt="girl">
+                    <div class="swiper__btn"><a class="btn__arrow btn__arrow_black" href="#">Подробнее</a></div>
+                    <div class="swiper__main"><span class="swiper__prof">#Кулинария</span>
+                      <h3 class="swiper__name">Имя Фамилия</h3>
+                      <p class="swiper__about">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-slide_used" data-index="1"><img src="images/slider.jpg" alt="girl">
+                    <div class="swiper__btn"><a class="btn__arrow btn__arrow_black" href="#">Подробнее</a></div>
+                    <div class="swiper__main"><span class="swiper__prof">#Кулинария</span>
+                      <h3 class="swiper__name">Имя Фамилия</h3>
+                      <p class="swiper__about">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-slide_used" data-index="2"><img src="images/slider.jpg" alt="girl">
+                    <div class="swiper__btn"><a class="btn__arrow btn__arrow_black" href="#">Подробнее</a></div>
+                    <div class="swiper__main"><span class="swiper__prof">#Кулинария</span>
+                      <h3 class="swiper__name">Имя Фамилия</h3>
+                      <p class="swiper__about">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-slide_used" data-index="3"><img src="images/slider.jpg" alt="girl">
+                    <div class="swiper__btn"><a class="btn__arrow btn__arrow_black" href="#">Подробнее</a></div>
+                    <div class="swiper__main"><span class="swiper__prof">#Кулинария</span>
+                      <h3 class="swiper__name">Имя Фамилия</h3>
+                      <p class="swiper__about">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-slide_used" data-index="4"><img src="images/slider.jpg" alt="girl">
+                    <div class="swiper__btn"><a class="btn__arrow btn__arrow_black" href="#">Подробнее</a></div>
+                    <div class="swiper__main"><span class="swiper__prof">#Кулинария</span>
+                      <h3 class="swiper__name">Имя Фамилия</h3>
+                      <p class="swiper__about">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="used__text">
+              <h2 class="title__main title__main_used">Рыбатекст используется дизайнерами</h2>
+              <p class="text__main text__main_used">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить</p><a class="btn__arrow" href="#">Список спикеров</a>
+            </div>
+          </div>
+        </section>
+        <section class="profession">
+          <div class="container">
+            <div class="profession_btn"></div>
+            <div class="profession_reg"></div>
+          </div>
+        </section>
+        <section class="list">
+          <div class="container">
+            <div class="list__text">
+              <h2 class="title__main">СПИСОК ПРОФЕССИЙ <span class="blue">(20)</span></h2>
+              <p class="text__main text__main_list">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить</p>
+            </div>
+            <div class="list__main"><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">01</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">02</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">03</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">04</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">05</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">06</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">07</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">08</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">09</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">10</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">11</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">12</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">13</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">14</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">15</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">16</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">17</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">18</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">19</span></a><a class="btn__balls" href="#"><span class="btn__name">Кулинария</span><span class="btn__number">20</span></a></div>
+            <div class="swiper-containerb">
+              <div class="swiper-container-pagination">
+                <div class="swiper-pagination"></div>
+                <button class="swiper-button-prev"></button>
+                <button class="swiper-button-next"></button>
+              </div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/swiper3.jpg" alt="js"></div>
+                <div class="swiper-slide"><img src="images/swiper3.jpg" alt="js"></div>
+                <div class="swiper-slide"><img src="images/swiper3.jpg" alt="js"></div>
+              </div>
+            </div>
+            <div class="list__btn"><a class="btn__arrow btn__arrow_m" href="#">Выбрать Проффесию</a></div>
+          </div>
+        </section>
+        <section class="designers">
+          <div class="container">
+            <div class="designers__text">
+              <h2 class="title__main">Рыбатекст используется дизайнерами</h2>
+              <p class="text__main text__main_designers">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить</p>
+            </div>
+            <div class="designers__main">
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+              <div class="designers__teacher"><img class="designers__img" src="images/designers__img.jpg" alt="teacher">
+                <div class="designers__inf">
+                  <h5 class="designers__spec">Программирование</h5>
+                  <h5 class="designers__name">Валерия Иванова</h5>
+                  <h5 class="designers__lec">Кол-во лекций:<span class="designers__lec-quantity">05</span></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="registration">
+          <div class="container container_df">
+            <div class="registration__main">
+              <h2 class="title__main title__main_registration">Пройдите быструю регистрацию!</h2>
+              <p class="text__main_registration text__main">Введите ваш email, пароль и получи доступ ко всем видео бесплатно</p><a class="btn__arrow btn__arrow_m" href="#">У меня уже есть аккаунт</a>
+            </div>
+            <div class="registration__form">
+              <h3 class="form__title">Быстрая регистрация</h3>
+              <form class="form form_registration">
+                <input class="form__input form__input_reg" type="text" name="userName" placeholder="Электронная почта">
+                <input class="form__input form__input_reg" type="password" name="userPassword" placeholder="Пароль">
+                <div class="form__container_registration">
+                  <label class="form__registration_check" for="cbx"> 
+                    <input type="checkbox" for="cbx"><span>Я согласен с условием обработки персональных данных</span>
+                  </label>
+                </div>
+                <input class="btn__arrow btn__arrow_m btn__arrow_white" type="submit" value="Зарегистрироваться">
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="review">
+          <div class="container container_review">
+            <div class="swiper-container gallery-top">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/c_img_3.jpg" alt="">
+                  <div class="swiper-slide_main">
+                    <p class="swiper-slide__text"> “Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести”</p>
+                    <h4 class="swiper-slide__name">Валерия Иванова</h4><span class="swiper-slide__country">Россия, Москва</span>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide_review"><img src="images/c_img_3.jpg" alt="">
+                  <div class="swiper-slide_main">
+                    <p class="swiper-slide__text">“Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести”</p>
+                    <h4 class="swiper-slide__name">Валерия Иванова</h4><span class="swiper-slide__country">Россия, Москва </span>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide_review"><img src="images/t__img_2.jpg" alt="">
+                  <div class="swiper-slide_main">
+                    <p class="swiper-slide__text"> “Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести”</p>
+                    <h4 class="swiper-slide__name">Валерия Иванова</h4><span class="swiper-slide__country">Россия, Москва</span>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide_review"><img src="images/t__img_3.jpg" alt="">
+                  <div class="swiper-slide_main">
+                    <p class="swiper-slide__text"> “Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести”</p>
+                    <h4 class="swiper-slide__name">Валерия Иванова</h4><span class="swiper-slide__country">Россия, Москва</span>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide_review"><img src="images/t__img_1.jpg" alt="">
+                  <div class="swiper-slide_main">
+                    <p class="swiper-slide__text"> “Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести”</p>
+                    <h4 class="swiper-slide__name">Валерия Иванова</h4><span class="swiper-slide__country">Россия, Москва</span>
+                  </div>
+                </div>
+              </div>
+              <button class="swiper-button-prev"></button>
+              <button class="swiper-button-next"></button>
+              <div class="swiper-pagination">     </div>
+            </div>
+            <div class="swiper-container gallery-thumbs">
+              <div class="swiper__main">
+                <h2 class="title__main">Отзывы</h2>
+                <p class="swiper__text">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить</p>
+              </div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/c_img_3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/c_img_3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/t__img_2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/t__img_3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/t__img_1.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="container">
+            <div class="about__text">
+              <h2 class="title__main">Рыбатекст используется дизайнерами</h2>
+              <p class="text__main">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить</p>
+            </div>
+            <div class="about__main">
+              <div class="accordion__item">
+                <h3 class="accordion__title">Рыбатекст используется дизайнерами</h3>
+                <div class="accordion__content">
+                  <p class="accordion__descr">“Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести”           </p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <h3 class="accordion__title">Рыбатекст используется дизайнерами</h3>
+                <div class="accordion__content">
+                  <p class="accordion__descr">“Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести”</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <h3 class="accordion__title">Рыбатекст используется дизайнерами</h3>
+                <div class="accordion__content">
+                  <p class="accordion__descr">“Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести”</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <h3 class="accordion__title">Рыбатекст используется дизайнерами</h3>
+                <div class="accordion__content">
+                  <p class="accordion__descr">“Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести”</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <h3 class="accordion__title">Рыбатекст используется дизайнерами</h3>
+                <div class="accordion__content">
+                  <p class="accordion__descr">“Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести”</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <h3 class="accordion__title">Рыбатекст используется дизайнерами</h3>
+                <div class="accordion__content">
+                  <p class="accordion__descr">“Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести”</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="welcome" id="welcome">
+          <div class="container">
+            <div class="welcome__title">
+              <h3 class="title_welcome">Добро пожаловать</h3>
+              <h4 class="title_welcome-sub">Введите данные для входа в личный кабинет</h4>
+            </div>
+            <form class="form__welcome" action="#">
+              <div class="form__welcome_input">
+                <div class="form__welcome_top"><span class="container-input_letter">Электронная почта</span></div>
+                <input class="form__input_welcome" type="email">
+              </div>
+              <div class="form__welcome_input">
+                <div class="form__welcome_top"><span class="container-input_email">Пароль</span></div>
+                <input class="form__input_welcome" type="password">
+              </div>
+              <div class="form__welcome_df">
+                <label class="form__welcome_check" for="cbx"> 
+                  <input type="checkbox" for="cbx"><span>Запомнить меня</span>
+                </label><a href="#">Забыли пароль?</a>
+              </div>
+              <input class="form__welcome_submit" type="submit" value="Войти в личный кабинет">
+            </form>
+            <h4 class="text__welcome">или</h4><a class="btn__welcome tesxt" href="#"> <span>Зарегистрироваться</span></a>
+            <div class="welcome__social">
+              <div class="social__top"><span class="text__second">Войдите с помощью социальных сетей</span></div>
+              <div class="social__bot"><a class="google" href="#"></a><a class="vk" href="#"></a><a class="telegram" href="#"></a></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/countdown-init.js"></script>
+    <script src="js/libs/libs.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
